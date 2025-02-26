@@ -33,7 +33,7 @@ const Profile =() => {
                 currentUser.roles.map((role, index) => <li key={index}>{role}</li> )}
             </ul>
         </div>
-    )
+    );
 }
 
 
